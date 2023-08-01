@@ -1,0 +1,68 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "john_doe",
+      "password": "password123",
+      "email": "john.doe@example.com",
+      "avatar": "https://cdn-icons-png.flaticon.com/512/607/607381.png?w=740&t=st=1690883173~exp=1690883773~hmac=322d0cb732da61485e3e15d884e5daae869e93609c101b4f55231bad161e5544"
+    },
+    {
+      "id": 2,
+      "username": "jane_smith",
+      "password": "password456",
+      "email": "jane.smith@example.com",
+      "avatar": "https://cdn-icons-png.flaticon.com/512/146/146037.png?w=740&t=st=1690883214~exp=1690883814~hmac=8714dbf84cf03a63e2eb455368726c57e8e078aea1c9472c5685b69843449e35"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "My First Blog Post",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec est nulla...",
+      "authorId": 1,
+      "createdAt": "2022-01-01T12:00:00Z",
+      "updatedAt": "2022-01-01T12:00:00Z",
+      "likes": 10,
+      "dislikes": 2,
+      "image_url": "https://img.freepik.com/free-vector/blogging-fun-content-creation-online-streaming-video-blog-young-girl-making-selfie-social-network-sharing-feedback-self-promotion-strategy_335657-2386.jpg?w=740&t=st=1690883297~exp=1690883897~hmac=c9838867abf48a0b109683481bf945e91f3306736fa794db465f4e4bd22ec93a"
+    },
+    {
+      "id": 2,
+      "title": "My Second Blog Post",
+      "content": "Suspendisse potenti. Nullam tristique, metus ac mollis lacinia, justo dolor...",
+      "authorId": 2,
+      "createdAt": "2022-01-05T15:30:00Z",
+      "updatedAt": "2022-01-05T15:30:00Z",
+      "likes": 5,
+      "dislikes": 1,
+      "image_url": "https://img.freepik.com/free-vector/flat-design-content-management-system-illustrated_23-2148816268.jpg?w=740&t=st=1690883300~exp=1690883900~hmac=22bd965655587ebaec2961e94bf7841dca2e0962fb8dc06f7ac04e7ef6e2e794"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "postId": 1,
+      "userId": 2,
+      "content": "Great post! I really enjoyed reading it.",
+      "createdAt": "2022-01-02T09:45:00Z",
+      "updatedAt": "2022-01-02T09:45:00Z"
+    },
+    {
+      "id": 2,
+      "postId": 1,
+      "userId": 1,
+      "content": "Thanks for the feedback!",
+      "createdAt": "2022-01-03T14:20:00Z",
+      "updatedAt": "2022-01-03T14:20:00Z"
+    },
+    {
+      "id": 3,
+      "postId": 1,
+      "userId": 2,
+      "content": "please write more articles.",
+      "createdAt": "2022-01-02T09:45:00Z",
+      "updatedAt": "2022-01-02T09:45:00Z"
+    }
+  ]
+}
